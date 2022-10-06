@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div id="buttons-container">
+        <button id="2-jogadores">2 Jogadores</button>
+        <button id="ai-jogador">Contra IA</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block1"></div>
+        <div class="box" id="block2"></div>
+        <div class="box" id="block3"></div>
+        <div class="box" id="block4"></div>
+        <div class="box" id="block5"></div>
+        <div class="box" id="block6"></div>
+        <div class="box" id="block7"></div>
+        <div class="box" id="block8"></div>
+        <div class="box" id="block9"></div>
+
+        <div id="placar-container">
+            <h2>Placar:</h2>
+            <span class="placar-box">
+                <span id="x-placar">X</span>:
+                <span id="placar-1">0</span>
+            </span>
+            <span class="placar-box">
+                <span id="o-placar"></span>:
+                <span id="placar-2">0</span>
+            </span>
+        </div>
+    </div>
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+    <div id="mensagem" class="hide">
+        <p>asd</p>
+    </div>
+
+    <!-- JavaScript -->
+<script src="js/scripts.js"></script>
+</body>
+</html>
